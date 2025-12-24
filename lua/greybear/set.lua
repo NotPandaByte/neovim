@@ -30,4 +30,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+-- System clipboard integration
+vim.opt.clipboard = "unnamedplus"
+
 vim.g.mapleader = " "

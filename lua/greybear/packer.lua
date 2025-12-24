@@ -20,7 +20,10 @@ return require('packer').startup(function(use)
 
   use('theprimeagen/harpoon')
 
-    use 'nvim/nvim-lspconfig'
+  -- LSP
+  use 'neovim/nvim-lspconfig'
+  use 'williamboman/mason.nvim'
+  use 'williamboman/mason-lspconfig.nvim'
 
   -- Optional: fuzzy finder extension
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
